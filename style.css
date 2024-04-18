@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000000;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+h1 {
+    color: #fefefe;
+    margin-bottom: 20px;
+    font-size: 4rem;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+canvas {
+    border: 1px solid white;
+    background: #000000;  
+}
